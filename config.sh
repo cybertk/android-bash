@@ -1,1 +1,1 @@
-CC=arm-none-linux-gnueabi-gcc ./configure --enable-static-link --enable-alias --enable-process-substitution --enable-readline --disable-nls --host=arm --without-bash-malloc
+CC=arm-none-linux-gnueabi-gcc ./configure --host=arm --enable-static-link --disable-job-control --without-bash-malloc
