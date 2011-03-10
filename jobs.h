@@ -245,6 +245,9 @@ extern void restore_pgrp_pipe __P((int *));
 
 #if defined (JOB_CONTROL)
 extern int job_control;
+#else
+static int job_control = 0;
 #endif
+
 
 #endif /* _JOBS_H_ */
